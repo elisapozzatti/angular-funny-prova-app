@@ -1,0 +1,15 @@
+.joke {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background: #ffcc00;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ffdd33;
+}

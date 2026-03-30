@@ -1,0 +1,22 @@
+.game {
+  margin-top: 20px;
+}
+
+.target {
+  width: 100px;
+  height: 100px;
+  background: red;
+  margin: 20px auto;
+  border-radius: 50%;
+  cursor: pointer;
+  animation: bounce 0.5s infinite alternate;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-20px);
+  }
+}
